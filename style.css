@@ -651,7 +651,7 @@ font-family: sans-serif;
 /* Responsive Header Navigation */
 @media (max-width: 768px) {
     header .container {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
     }
 
@@ -662,7 +662,7 @@ font-family: sans-serif;
 
     header nav ul {
         position: static;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         margin-top: 15px;
     }
