@@ -115,7 +115,7 @@ header nav ul li a:hover {
 .about p {
     font-size: 18px; /* Comfortable size for readability */
     line-height: 1.2; /* Improved line height for easy reading */
-    color: white; /* Subtle, neutral color for text */
+    color: black; /* Subtle, neutral color for text */
     margin-bottom: 25px; /* Spacing between paragraphs */
     font-family: sans-serif;
     max-width: 850px;
