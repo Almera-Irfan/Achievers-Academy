@@ -90,134 +90,350 @@ header nav ul li a:hover {
 }
 /* About Us Section */
 .about {
-    background-color: #fff; /* Simple white background */
-    padding: 60px 30px; /* Generous padding for spacing */
+    background-color: #f4f4f4; /* Soft light gray background */
+    padding: 40px 15px; /* Reduced padding for a more compact design */
     text-align: center;
-    position: relative;
-    border-radius: 8px; /* Soft rounded corners */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    margin: 50px auto; /* Margin for spacing between sections */
-    max-width: 1200px; /* Limit the width for better alignment */
+    max-width: 900px; /* Limit width for better alignment */
+    margin: 40px auto; /* Center the section with margin */
+    border-radius: 8px; /* Slightly rounded corners for modern look */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-/* Header */
+/* Header Style */
 .about h1 {
-    font-size: 40px; /* Medium-large font for the title */
-    color: #2c3e50; /* Dark, professional color */
-    font-family: 'Roboto', sans-serif; /* Clean, modern font */
-    font-weight: bold;
-    margin-bottom: 30px; /* Spacing below the title */
-    text-transform: uppercase; /* Slight emphasis */
-    letter-spacing: 1px; /* Slight letter-spacing for clarity */
+    font-size: 28px; /* Slightly smaller but bold title */
+    color: #333; /* Dark gray color for text */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    font-weight: 600; /* Medium weight */
+    margin-bottom: 15px; /* Margin below header */
+    text-transform: uppercase; /* Uppercase for emphasis */
 }
 
-/* Paragraphs */
+/* Paragraph Style */
 .about p {
-    font-size: 18px; /* Comfortable size for readability */
-    line-height: 1.2; /* Improved line height for easy reading */
-    color: black; /* Subtle, neutral color for text */
-    margin-bottom: 25px; /* Spacing between paragraphs */
-    font-family: sans-serif;
-    max-width: 850px;
+    font-size: 16px; /* Readable font size */
+    color: #555; /* Slightly lighter gray for text */
+    line-height: 1.6; /* Good line spacing for readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-family: 'Arial', sans-serif;
+    max-width: 800px; /* Max width to keep content aligned */
     margin-left: auto;
-    margin-right: auto; /* Center-align text */
-    text-align: justify; /* Justify the text for a neat appearance */
+    margin-right: auto;
+    text-align: justify; /* Justify text for clean look */
 }
 
-
-
-.about .button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
-    transform: translateY(-3px); /* Slight lift effect for interactivity */
-}
-
-/* Optional: Subtle divider line for structure */
+/* Optional Divider */
 .about .divider {
-    width: 50px; /* Narrow divider */
-    height: 4px; /* Thicker line */
-    background-color: #3498db; /* Same blue as button */
-    margin: 30px auto; /* Center-align the divider */
+    width: 60px; /* Thin line divider */
+    height: 2px; /* Narrow line */
+    background-color: #3498db; /* Blue color for the divider */
+    margin: 20px auto; /* Center-align divider */
 }
 
-/* Media Query for Mobile */
+/* Mobile Media Query */
 @media (max-width: 768px) {
     .about {
-        padding: 40px 20px; /* Adjust padding for smaller screens */
+        padding: 30px 15px; /* Adjust padding for mobile */
     }
 
     .about h1 {
-        font-size: 32px; /* Smaller font size for title on mobile */
+        font-size: 24px; /* Smaller title size on mobile */
     }
 
     .about p {
-        font-size: 16px; /* Slightly smaller text for mobile */
-        margin-bottom: 20px; /* Less space between paragraphs on smaller screens */
-    }
-
-    .about .button {
-        padding: 12px 35px; /* Smaller button size for mobile */
-        font-size: 16px; /* Adjust button font size */
+        font-size: 14px; /* Slightly smaller paragraph text on mobile */
+        margin-bottom: 10px; /* Less space between paragraphs */
     }
 }
+
+
+
+
+
+/* Why Choose Us Section */
+#why-choose-us {
+    background-color: #e9f7fe; /* Light blue background */
+    padding: 50px 20px; /* Adds padding around the content */
+    margin-top: 40px; /* Space between sections */
+    text-align: center; /* Center-aligns the text */
+}
+
+/* Heading for the Section */
+#why-choose-us h2 {
+    color: #007bff; /* Blue color for the main heading */
+    font-size: 32px; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Introduction Text */
+#why-choose-us p {
+    font-size: 18px; /* Standard font size */
+    color: #333; /* Darker color for readability */
+    margin-bottom: 30px; /* Adds space after the paragraph */
+    line-height: 1.6; /* Increases line spacing for readability */
+}
+
+/* Container for the Feature Blocks */
+#why-choose-us .features {
+    display: flex; /* Use Flexbox to align the features */
+    justify-content: center; /* Centers the feature blocks */
+    gap: 30px; /* Space between feature blocks */
+    flex-wrap: wrap; /* Allows the features to wrap on smaller screens */
+}
+
+/* Individual Feature Block */
+#why-choose-us .feature {
+    background-color: #fff; /* White background for each feature block */
+    padding: 20px; /* Adds padding inside each feature */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 250px; /* Fixed width for each feature block */
+    text-align: center; /* Center-aligns the text inside the feature block */
+}
+
+/* Feature Block Title */
+#why-choose-us .feature h4 {
+    font-size: 22px; /* Larger font size for the title */
+    color: #007bff; /* Blue color for feature titles */
+    margin-bottom: 15px; /* Adds space below the title */
+}
+
+/* Feature Block Description */
+#why-choose-us .feature p {
+    font-size: 16px; /* Standard font size for description */
+    color: #555; /* Lighter color for readability */
+    line-height: 1.6; /* Increased line spacing for better readability */
+}
+
+/* Responsive Design: Stacks feature blocks vertically on small screens */
+@media (max-width: 768px) {
+    #why-choose-us .features {
+        flex-direction: column; /* Stack the feature blocks vertically */
+        align-items: center; /* Center-aligns the feature blocks */
+    }
+
+    #why-choose-us .feature {
+        width: 90%; /* Makes feature blocks take up more space on smaller screens */
+        margin-bottom: 20px; /* Adds space between stacked feature blocks */
+    }
+}
+
+
 
 
 /* Director Section */
 .director {
-    background-color: #fff;
-    padding: 50px 30px;
+    background-color: #fff; /* Clean white background */
+    padding: 40px 20px; /* Adequate but compact padding */
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin: 40px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 40px auto;
+    max-width: 900px; /* Max width for neatness */
 }
 
+/* Director's Name */
 .director h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: #2c3e50;
+    font-size: 32px;
+    color:#2980b9; /* Dark text color for contrast */
     text-transform: uppercase;
-    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
+/* Director's Title */
 .director h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    color: #2c3e50;
+    font-size: 24px;
+    color: #2980b9; /* Blue color for accent */
+    margin-bottom: 15px;
 }
 
+/* Bio Section */
 .director .bio {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
 }
 
+/* Director's Image */
 .director img {
-    max-width: 250px;
-    height: 250px;
+    max-width: 180px;
+    height: 180px;
     border-radius: 50%;
-    border: 5px solid #2c3e50;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-}
-
-
-
-.director .text {
-    max-width: 600px;
-    text-align: left;
-    font-size: 18px;
-    color: #7f8c8d;
-    line-height: 1.6;
-}
-
-.director .text p {
+    border: 3px solid #2980b9; /* Blue border */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
     margin-bottom: 20px;
 }
+
+/* Director's Text */
+.director .text {
+    font-size: 16px; /* Adjusted text size */
+    color: #555; /* Dark gray text for better readability */
+    line-height: 1.6; /* Comfortable line height */
+    max-width: 700px; /* Keep text aligned */
+    text-align: center;
+    margin-top: 15px; /* Spacing above the text */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .director h1 {
+        font-size: 26px; /* Slightly smaller title */
+    }
+
+    .director h2 {
+        font-size: 20px; /* Smaller subtitle */
+    }
+
+    .director img {
+        max-width: 160px; /* Smaller image size */
+        height: 160px;
+    }
+
+    .director .text {
+        font-size: 14px; /* Adjust text size for mobile */
+        max-width: 90%; /* Allow text to take more space */
+    }
+}
+
+
+
+
+/* Our Achievers Section */
+#our-achievers {
+    background-color: #f7f9fc;  /* Light background for the section */
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);  /* Subtle shadow to add depth */
+}
+
+.our-achievers .section-title {
+    font-size: 50px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #34495e; /* Darker grayish blue */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.our-achievers .section-description {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #7f8c8d;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Achievers Container */
+.achievers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+/* Achiever Card */
+.achiever-card {
+    background-color: #ffffff;  /* White background for the card */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    width: 280px;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    position: relative;
+    border: 2px solid transparent;  /* Add transparent border to ensure hover effect works well */
+}
+
+/* Achiever Card Hover Effect */
+.achiever-card:hover {
+    transform: translateY(-10px);  /* Hover effect to lift the card */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #2980b9;  /* Highlight with blue border on hover */
+}
+
+/* Highlighted Achiever Card */
+.achiever-card.highlighted {
+    background-color: #f0f8ff;  /* Light blue background for highlighted achievers */
+    border: 2px solid #2980b9;  /* Blue border for emphasis */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Achiever Details */
+.achiever-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Achiever Name */
+.achiever-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2980b9;  /* Sky blue for the name */
+    margin-bottom: 5px;
+    text-transform: capitalize;  /* Capitalize the first letter of each word */
+}
+
+/* Achiever Title */
+.achiever-title {
+    font-size: 20px;
+    color: #3498db;  /* Bright blue for the title */
+    font-weight: 500;
+}
+
+/* Marks Information */
+.achiever-marks {
+    font-size: 18px;
+    color: #1abc9c;  /* Teal color for marks to make them stand out */
+    font-weight: 700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .achievers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achiever-card {
+        width: 85%;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .achievers {
+        gap: 20px;
+    }
+
+    .achiever-name {
+        font-size: 28px;
+    }
+
+    .achiever-title {
+        font-size: 18px;
+    }
+
+    .achiever-marks {
+        font-size: 16px;
+    }
+}
+
+
+
+
 
 /* Contact Section */
 .contact {
@@ -515,227 +731,233 @@ form button:hover {
 }
 
 
-
 /* Events Section */
 .events {
-    background-color: #fff;
-    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background for the section */
+    padding: 50px 20px; /* Generous padding for spacing */
     text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 40px 0;
 }
 
+/* Events Heading */
 .events h1 {
     font-size: 36px;
-    font-family: times new roman;
-    text-decoration:underline;
-    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    color: #2c3e50; /* Dark color for heading */
 }
 
+/* Events List */
 .events ul {
     list-style: none;
+    padding: 0;
 }
 
 .events ul li {
-    background-color: #ecf0f1;
+    background-color: #ecf0f1; /* Light gray background for each event */
     padding: 20px;
-    margin: 10px 0;
-    border-radius: 10px;
+    margin: 15px 0;
+    border-radius: 8px; /* Rounded corners for each event item */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow to make events stand out */
 }
 
 .events ul li h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #2980b9; /* Blue color for event titles */
+    font-weight: 600;
 }
 
 .events ul li p {
     font-size: 18px;
+    color: #7f8c8d; /* Light gray for event descriptions */
+    line-height: 1.6;
+}
+
+
+
+
+
+/* Principal Section */
+.principal {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 60px 20px;
+    text-align: center;
+    margin: 50px 0;
+    border-radius: 20px; /* Soft rounded corners */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Principal's Image */
+.principal img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular image */
+    border: 5px solid #2980b9; /* Blue border around the image */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Principal's Name */
+.principal h2 {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #2c3e50; /* Dark color for the title */
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Principal's Bio */
+.principal .bio {
+    font-size: 18px;
+    color: #7f8c8d; /* Soft gray color for readability */
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
 /* Teachers Section */
- .principal {
-    background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-    margin: 10px 0;
-    border-radius: 10px;
-border: 5px solid #3498db; /* Blue filled border effect */
-    border-radius: 10px; /* Rounded corners */
-}
-
-.principal h2 {
-    font-family: times new roman;
-text-decoration:underline;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.principal .name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.principal .bio {
-    font-size: 18px;
-    color: #555;
-}
- 
 .teachers {
-    background-color: #fff;
-    padding: 50px 20px;
+    background-color: #ffffff; /* White background for the teacher section */
+    padding: 60px 20px;
     text-align: center;
+    margin: 50px 0;
+    border-radius: 20px; /* Rounded corners for a smooth look */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
+
+/* Teachers Section Title */
 .teachers h1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
-text-decoration:underline;
-    font-family:times new roman;
+    color: #2980b9; /* Vibrant blue for section title */
+    font-weight: 700;
     margin-bottom: 20px;
+   font-decoration:underline;
 }
 .teachers p {
-    font-size: 22px;
-    font-family:times new roman;
-    margin-bottom: 20px;
+font-size: 24px;
 }
 
 
-
-
+/* Teacher List */
 .teachers ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
     list-style: none;
 }
 
+/* Each Teacher Card */
 .teachers ul li {
-    background-color: #ecf0f1;
+    background-color: #ecf0f1; /* Light background for each teacher */
+    width: 280px;
+    border-radius: 15px;
     padding: 20px;
-    margin: 10px 0;
-    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Card shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+    text-align: center;
+    cursor: pointer;
 }
 
+/* Hover Effect on Teacher Cards */
+.teachers ul li:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Teacher's Image */
+.teachers ul li img {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Circular image */
+    border: 4px solid #2980b9; /* Blue border */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Teacher's Name */
 .teachers ul li h2 {
-    font-size: 30px;
-    font-family: sans-serif bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #2c3e50; /* Dark text color for names */
     margin-bottom: 10px;
 }
 
+/* Teacher's Role */
 .teachers ul li h5 {
-    font-size: 20px;
-    font-family: arial ;
-    margin-bottom: 10px;
+    font-size: 18px;
+    color: #2980b9; /* Blue color for roles */
+    margin-bottom: 15px;
 }
 
+/* Teacher's Description */
 .teachers ul li p {
-    font-size: 18px;
-font-family: sans-serif;
-} 
-/* Responsive Header Navigation */
+    font-size: 16px;
+    color: #7f8c8d; /* Soft gray text for descriptions */
+    line-height: 1.5;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
-    header .container {
+    .principal h2 {
+        font-size: 28px;
+    }
+
+    .principal .bio {
+        font-size: 16px;
+    }
+
+    .teachers h1 {
+        font-size: 32px;
+    }
+
+    .teachers ul {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+    }
+
+    .teachers ul li {
+        width: 90%; /* Full width on small screens */
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .teachers h1 {
+        font-size: 28px;
+    }
+
+    .teachers ul li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
     }
 
     header h1 {
-        font-size: 36px;
-        font-family: algerian;
-        padding-right: 0;
-    }
-
-    header nav ul {
-        position: static;
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 15px;
-    }
-
-    header nav ul li a {
-        font-size: 18px;
-    }
-}
-
-/* Hero Section */
-@media (max-width: 768px) {
-    .hero {
-        padding: 60px 10px;
+        font-size: 24px;
     }
 
     .hero h2 {
         font-size: 28px;
     }
 
-    .hero p {
-        font-size: 16px;
-    }
-}
-
-/* About Section */
-@media (max-width: 768px) {
-    .about {
-        padding: 30px 15px;
-    }
-
-    .about h1 {
+    .about h1, .director h1 {
         font-size: 28px;
-    }
-
-    .about p {
-        font-size: 14px;
-        margin-bottom: 15px;
-    }
-}
-
-/* Director Section */
-@media (max-width: 768px) {
-    .director {
-        padding: 30px 15px;
-    }
-
-    .director .bio {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .director img {
-        max-width: 150px;
-        height: auto;
-    }
-
-    .director .text {
-        text-align: center;
-        font-size: 16px;
-    }
-}
-
-/* Footer */
-@media (max-width: 768px) {
-    footer p {
-        font-size: 12px;
-    }
-}
-
-/* General Responsive Adjustments */
-@media (max-width: 768px) {
-    .contact form {
-        padding: 20px;
-    }
-
-    .contact h2 {
-        font-size: 24px;
-    }
-
-    .programs-courses h2,
-    .events h1,
-    .teachers h1 {
-        font-size: 28px;
-    }
-
-    .teachers ul li {
-        padding: 15px;
-    }
-
-    .teachers ul li h2 {
-        font-size: 24px;
-    }
-
-    .teachers ul li p {
-        font-size: 16px;
     }
 }
