@@ -73,6 +73,29 @@ header nav ul li a:hover {
     text-decoration-color: #3498db;
 }
 
+/* Mobile-specific Styles */
+@media (max-width: 768px) {
+    /* Hide the normal horizontal menu on small screens */
+    header nav ul {
+        position: static;  /* Remove absolute positioning */
+        display: none; /* Initially hidden */
+        flex-direction: column; /* Stack vertically */
+        gap: 20px; /* Space out links */
+        background-color: #333; /* Background color */
+        width: 100%; /* Full width for mobile menu */
+        padding: 20px; /* Add padding around links */
+    }
+
+    header nav ul li {
+        text-align: center; /* Center align the items */
+        display: block; /* Stack list items vertically */
+    }
+
+    header nav ul li a {
+        font-size: 18px; /* Smaller font size on mobile */
+    }
+
+
 /* Hero Section */
 .hero {
     background-color: #3498db;
