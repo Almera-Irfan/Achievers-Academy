@@ -52,6 +52,13 @@
 
  
 
+<!-- Notification Bar (Slide-In) -->
+<div class="notification-bar">
+    <span class="notification-message">
+        🚨 <strong>Our Sports Festival is Coming on 6th Jan 2025!</strong> Don't miss out!
+    </span>
+    <button class="close-btn">×</button>
+</div>
 
 
 
@@ -64,7 +71,7 @@
             <ul>
                 <li>                    
                     <h1>Annual Sports Day</h1>
-                    <h3>Date: 15th December 2024</h3>
+                    <h3>Date: 06th December 2025</h3>
                     <p>Details: Get ready for an exciting Sports Day at our academy, where students will showcase their athletic skills and sportsmanship. Join us for a day filled with fun, competition, and team spirit!</p>
                 </li>
                 <li>
@@ -102,7 +109,20 @@
             <p>&copy; 2024 The Achiever's Academy. All rights reserved.</p>
         </div>
     </footer>
+<script>
+    // Show the notification on page load
+    window.addEventListener('load', function() {
+        const notificationBar = document.querySelector('.notification-bar');
+        notificationBar.classList.add('show'); // Add 'show' class to slide it down
+    });
 
-    <script src="script.js"></script>
+    // Close the notification when the close button is clicked
+    const closeButton = document.querySelector('.close-btn');
+    closeButton.addEventListener('click', function() {
+        const notificationBar = document.querySelector('.notification-bar');
+        notificationBar.classList.remove('show'); // Hide the notification
+    });
+</script>
+
 </body>
 </html>

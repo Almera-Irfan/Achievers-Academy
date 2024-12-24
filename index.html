@@ -19,12 +19,35 @@
                 <p class="slogan">Everyone is an Achiever</p>
                 
             </div>
+<!-- Notification Bar (Slide-In) -->
+<div class="notification-bar">
+    <span class="notification-message">
+        🚨 <strong>Our Sports Festival is Coming on 6th Jan 2025!</strong> Don't miss out!
+    </span>
+    <button class="close-btn">×</button>
+</div>
+<script>
+    // Show the notification on page load
+    window.addEventListener('load', function() {
+        const notificationBar = document.querySelector('.notification-bar');
+        notificationBar.classList.add('show'); // Add 'show' class to slide it down
+    });
+
+    // Close the notification when the close button is clicked
+    const closeButton = document.querySelector('.close-btn');
+    closeButton.addEventListener('click', function() {
+        const notificationBar = document.querySelector('.notification-bar');
+        notificationBar.classList.remove('show'); // Hide the notification
+    });
+</script>
+
+
             <nav>
                 <ul>
                     <li><a href="#about">Home</a></li>
                     <li><a href="admission.html">Admission</a></li>
                     <li><a href="teachers.html">Teachers</a></li>
-                    <li><a href="events.html">Events</a></li>
+                    <li><a href="events.html" class="event-link">Events <span class="notification">New</span></a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
 
                 </ul>
