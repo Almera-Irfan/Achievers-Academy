@@ -27,7 +27,7 @@ header .container {
 }
 
 header .logo img {
-    max-width: 175px; /* Larger logo */
+    max-width: auto; /* Larger logo */
     height: auto;
 }
 
@@ -54,7 +54,7 @@ header nav ul {
     padding: 0;
     position: absolute;
     right: 20px; /* Added right padding for spacing */
-    top: 120px; /* Keeps the nav below the header */
+    top: 140px; /* Keeps the nav below the header */
 }
 
 header nav ul li {
